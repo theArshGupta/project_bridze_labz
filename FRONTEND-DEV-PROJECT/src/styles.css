@@ -1,0 +1,248 @@
+/* ================================
+   CLEAN UNIVERSITY RESULT PORTAL UI
+   ================================ */
+
+:root {
+  --primary: #0a3d62;
+  --primary-light: #0e5a93;
+  --bg: #eef2f5;
+  --card: #ffffff;
+  --shadow: rgba(0,0,0,0.08);
+  --border: #d8e0e7;
+  --text: #1a1a1a;
+  --text-muted: #6b6b6b;
+  --success: #2ecc71;
+  --warning: #f1c40f;
+  --danger: #e74c3c;
+}
+
+/* Global */
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+}
+
+.app-container {
+  padding: 28px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+  gap: 20px;
+  height: 78vh;
+}
+
+/* Card */
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0px 4px 12px var(--shadow);
+}
+
+/* Left Panel */
+.left-panel {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-top {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.left-bottom {
+  flex: 1.2;
+  overflow-y: auto;
+}
+
+/* Right Panel */
+.right-panel {
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.panel-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.note {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.load-btn {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 3px 12px rgba(10, 61, 98, 0.25);
+}
+
+.load-btn:hover {
+  background: var(--primary-light);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+  background: var(--primary);
+  color: white;
+  padding: 12px 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+
+.student-row:hover {
+  background: #eef6ff;
+  cursor: pointer;
+}
+
+/* Action Buttons */
+.action-btn {
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.edit-btn {
+  background: var(--warning);
+}
+
+.delete-btn {
+  background: var(--danger);
+}
+
+.view-btn {
+  background: var(--success);
+}
+
+/* Details Section */
+.student-details h2 {
+  margin: 0 0 12px;
+  color: var(--primary);
+  font-size: 22px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* Form */
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-row label {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.form-row input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+}
+
+.form-row input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.submit-btn {
+  background: var(--primary);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.submit-btn:hover {
+  background: var(--primary-light);
+}
+
+/* Empty message */
+.empty {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+    height: auto;
+  }
+  .left-panel,
+  .right-panel {
+    width: 100%;
+  }
+}

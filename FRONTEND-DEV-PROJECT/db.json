@@ -1,0 +1,175 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "roll": "101",
+      "phone": "9876543210",
+      "marks": 88,
+      "grade": "A"
+    },
+    {
+      "id": 2,
+      "name": "Riya Verma",
+      "roll": "102",
+      "phone": "9988776655",
+      "marks": 92,
+      "grade": "A+"
+    },
+    {
+      "id": 3,
+      "name": "Kabir Mehta",
+      "roll": "103",
+      "phone": "9123456780",
+      "marks": 76,
+      "grade": "B"
+    },
+    {
+      "id": 4,
+      "name": "Sana Kapoor",
+      "roll": "104",
+      "phone": "9090909090",
+      "marks": 81,
+      "grade": "B+"
+    },
+    {
+      "id": 5,
+      "name": "Vikram Singh",
+      "roll": "105",
+      "phone": "9988001122",
+      "marks": 67,
+      "grade": "C+"
+    },
+    {
+      "id": 6,
+      "name": "Meera Joshi",
+      "roll": "106",
+      "phone": "9812345678",
+      "marks": 94,
+      "grade": "A+"
+    },
+    {
+      "id": 7,
+      "name": "Arjun Patel",
+      "roll": "107",
+      "phone": "9001234567",
+      "marks": 73,
+      "grade": "B"
+    },
+    {
+      "id": 8,
+      "name": "Tanvi Rao",
+      "roll": "108",
+      "phone": "9876501234",
+      "marks": 89,
+      "grade": "A"
+    },
+    {
+      "id": 9,
+      "name": "Krish Malhotra",
+      "roll": "109",
+      "phone": "7568901234",
+      "marks": 58,
+      "grade": "D"
+    },
+    {
+      "id": 10,
+      "name": "Ananya Sen",
+      "roll": "110",
+      "phone": "9056781234",
+      "marks": 77,
+      "grade": "B+"
+    },
+    {
+      "id": 11,
+      "name": "Harshit Taneja",
+      "roll": "111",
+      "phone": "8800123456",
+      "marks": 85,
+      "grade": "A"
+    },
+    {
+      "id": 12,
+      "name": "Divya Nair",
+      "roll": "112",
+      "phone": "9654312345",
+      "marks": 91,
+      "grade": "A+"
+    },
+    {
+      "id": 13,
+      "name": "Aditya Khanna",
+      "roll": "113",
+      "phone": "9988771122",
+      "marks": 62,
+      "grade": "C"
+    },
+    {
+      "id": 14,
+      "name": "Payal Ghosh",
+      "roll": "114",
+      "phone": "9900112233",
+      "marks": 79,
+      "grade": "B+"
+    },
+    {
+      "id": 15,
+      "name": "Rohit Das",
+      "roll": "115",
+      "phone": "9822110099",
+      "marks": 83,
+      "grade": "A-"
+    },
+    {
+      "id": 16,
+      "name": "Ishita Jain",
+      "roll": "116",
+      "phone": "9811911234",
+      "marks": 95,
+      "grade": "A+"
+    },
+    {
+      "id": 17,
+      "name": "Kunal Bansal",
+      "roll": "117",
+      "phone": "7543210987",
+      "marks": 71,
+      "grade": "B"
+    },
+    {
+      "id": 18,
+      "name": "Suhani Mishra",
+      "roll": "118",
+      "phone": "9091213141",
+      "marks": 65,
+      "grade": "C+"
+    },
+    {
+      "id": 19,
+      "name": "Manav Gupta",
+      "roll": "119",
+      "phone": "8200987654",
+      "marks": 87,
+      "grade": "A"
+    },
+    {
+      "id": 20,
+      "name": "Priya Sahu",
+      "roll": "120",
+      "phone": "7001122334",
+      "marks": 90,
+      "grade": "A+"
+    },
+    {
+      "id": 1764826407138,
+      "name": "Arsh",
+      "roll": "16",
+      "phone": "1234567898",
+      "m1": 83,
+      "m2": 87,
+      "m3": 86,
+      "total": 256,
+      "grade": "A"
+    }
+  ]
+}
